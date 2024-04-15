@@ -1,0 +1,18 @@
+.button {
+  padding: 14px 32px;
+  letter-spacing: 1px;
+  color: #fff;
+  border: none;
+  background: #3c6176;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}

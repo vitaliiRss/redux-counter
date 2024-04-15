@@ -1,0 +1,9 @@
+.counter {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 40px;
+  background: #f0f0f0;
+}

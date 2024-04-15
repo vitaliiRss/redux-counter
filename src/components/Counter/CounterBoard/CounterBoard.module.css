@@ -1,0 +1,38 @@
+.board {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px;
+  border: 2px solid #0d0d0d;
+}
+
+.viewArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #d8d6d2;
+}
+
+.number {
+  font-size: 42px;
+}
+
+.maxlimimt {
+  color: #16a085;
+}
+
+.error {
+  color: #f00;
+}
+
+.alert {
+  color: #16a085;
+}
+
+.btns {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
